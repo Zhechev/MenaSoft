@@ -1,0 +1,5 @@
+// Create table
+
+CREATE TABLE `mena`.`news` ( `id` INT NOT NULL AUTO_INCREMENT , `date_added` DATETIME NOT NULL , `title` VARCHAR(255) NOT NULL , `short_description` VARCHAR(255) NOT NULL , `text` TEXT NOT NULL , 
+PRIMARY KEY (`id`)) 
+ENGINE = InnoDB;
